@@ -18,7 +18,12 @@ I have added some sample videos in the example folder to run here. To run the ex
 python main.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
 ```
 I used two different facial detectors on the same video so when you run this it will combine both these videos horizontally.
-![](Results/cnn-2.gif)  ![](Results/dlib-2.gif)![](Results/cnn-2-dlib-2.gif)
+![](Results/cnn-2.gif)  ![](Results/dlib-2.gif)
+
+The resulting video will be like this:
+
+
+![](Results/cnn-2-dlib-2.gif)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
