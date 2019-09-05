@@ -15,5 +15,5 @@ After you have setup your environment you can now run the program on your own vi
 I have added some sample videos in the example folder to run here. To run the examples using the example files enter this:
 
 ```bash
-python concatenate.py --video1 cnn-2.mp4 --video2 dlib-2.mp4 --axis 1
+python concatenate.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
 ```
