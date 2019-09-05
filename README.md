@@ -1,7 +1,7 @@
 # Video-frames-Concatenation
 This python program will join two videos together horizontally or vertically depending on the desired results by the user.
 
-## Working:
+## Working
 The files must have same fps & dimension for optimal working as the reason of this repository is to be used for comparing different changes to the same video file.
 
 ### Installing Required libraries:
