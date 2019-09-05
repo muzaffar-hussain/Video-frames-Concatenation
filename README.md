@@ -1,7 +1,7 @@
 # Video-frames-Concatenation
 This python program will join two videos together horizontally or vertically depending on the desired results by the user.
 
-## Working:
+## Working
 The files must have same fps & dimension for optimal working as the reason of this repository is to be used for comparing different changes to the same video file.
 
 ### Installing Required libraries:
@@ -15,5 +15,12 @@ After you have setup your environment you can now run the program on your own vi
 I have added some sample videos in the example folder to run here. To run the examples using the example files enter this:
 
 ```bash
-python concatenate.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
+python main.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
