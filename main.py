@@ -26,9 +26,9 @@ widthcap2 = int(cap2.get(cv2.CAP_PROP_FRAME_WIDTH))
 heightcap2 = int(cap2.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
 if args["axis"] is 1:
-    out = cv2.VideoWriter(name1+'-'+name2+'.mp4', fourcc, fps, ((widthcap1+widthcap2), heightcap1))
+    out = cv2.VideoWriter('Results/'+name1+'-'+name2+'.mp4', fourcc, fps, ((widthcap1+widthcap2), heightcap1))
 else:
-    out = cv2.VideoWriter(name1+'-'+name2+'.mp4', fourcc, fps, (widthcap1, (heightcap1+heightcap2)))
+    out = cv2.VideoWriter('Results/'+name1+'-'+name2+'.mp4', fourcc, fps, (widthcap1, (heightcap1+heightcap2)))
 while(cap1.isOpened()):
     ret, frame = cap1.read()
     ret1, frame1 = cap2.read()
