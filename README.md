@@ -17,3 +17,10 @@ I have added some sample videos in the example folder to run here. To run the ex
 ```bash
 python main.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
