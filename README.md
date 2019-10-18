@@ -17,6 +17,7 @@ I have added some sample videos in the example folder to run here. To run the ex
 ```bash
 python main.py --video1 Examples/cnn-2.mp4 --video2 Examples/dlib-2.mp4 --axis 1
 ```
+#### Note: You can cancatenate vidoes along vertical axis by using --axis 0
 I used two different facial detectors on the same video so when you run this it will combine both these videos horizontally.
 ![](Results/cnn-2.gif)  ![](Results/dlib-2.gif)
 
